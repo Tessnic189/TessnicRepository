@@ -431,7 +431,7 @@ function populateUnassignedDriverList() {
                 </select>
                 <button onclick="assignRouteToDriver('${driver.name}')">Assign</button>
                 <button style="background-color: lightblue; color: black; margin-left: 5px;" onclick="setDriverWorking('${driver.name}')">Going Home</button>
-            `);
+            `;
             unassignedDriverList.appendChild(listItem);
         });
 }
